@@ -84,10 +84,10 @@ int main(){
   }
             for(j=0;j<3;j++){
                 printf(" %c ",tabuleiro[i][j]);
-                 if (j == 0){
+                 if (j == 1){
     printf("|");
    }
-    if (j == 1){
+    if (j == 2){
     printf("|");
    }
             }
@@ -138,10 +138,10 @@ int main(){
   }
             for(j=0;j<3;j++){
                 printf(" %d ",jogo[i][j]);
-                if (j == 0){
+                if (j == 1){
     printf("|");
    }
-    if (j == 1){
+    if (j == 2){
     printf("|");
    }
             }
@@ -203,10 +203,10 @@ int main(){
   }
             for(j=0;j<3;j++){
                 printf(" %c ",tabuleiro[i][j]);
-                 if (j == 0){
+                 if (j == 1){
     printf("|");
    }
-    if (j == 1){
+    if (j == 2){
     printf("|");
    }
             }
@@ -258,10 +258,10 @@ int main(){
    printf("---+---+---\n");
   }
             for(j=0;j<3;j++){
-        if (j == 0){
+        if (j == 1){
     printf("|");
    }
-    if (j == 1){
+    if (j == 2){
     printf("|");
    }
                 printf(" %d ",jogo[i][j]);
@@ -322,10 +322,10 @@ int main(){
    printf("---+---+---\n");
   }
             for(j=0;j<3;j++){
-        if (j == 0){
+        if (j == 1){
     printf("|");
    }
-    if (j == 1){
+    if (j == 2){
     printf("|");
    }
                 printf(" %c ",tabuleiro[i][j]);
